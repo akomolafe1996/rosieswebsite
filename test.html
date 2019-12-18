@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="subpage.css">
     <link rel="stylesheet" type="text/css" media="only screen and (min-width:300px) and (max-width:420px)" href="mobilestyle.css">
-    <title>CONTACT</title>
+    <title>HOME</title>
 </head>
 
 <body>
@@ -34,13 +35,48 @@
         </nav>
     </header>
     <main>
-        <div class="topimage">
-            <h><strong>intrigued?</strong></h><br>
-            <h3><strong>Get in touch...</strong></h3>
-            <p><span>Strandvejen 61<br>2100 København<br><br>+45 27 86 18 00<br>rosiefrankland@gmail.com</span></p>
-            <div class="contactdetails">
-            </div>
-            <div class="aboutblock"></div>
+        <div class="aboutgallery">
+                 <p><span class="tattoodescription"></span></p>
+             </div>
+        <div class="subpagelayout">
+            <article class="tattootiles">
+                <div class="subpagearrangement">
+                    <div class="top">
+                        <div class="goback">
+                            <p><a href="webshop.html"><strong> &#8672; back to temporary tattoos</strong></a></p>
+                        </div>
+                    </div>
+                    <div class="middle">
+                        <div class="stickerimage">
+                            <img src="" alt="" class="cover">
+                        </div>
+                        <div class="modelimage">
+                            <img src="" alt="" class="secondcover">
+                        </div>
+                        <div class="buytattoo">
+                            <div class="nameandprice">
+                                <h><strong><span class="tattootitle"></span></strong></h>
+                                <p><strong><span class="tattooprice"></span></strong></p>
+                            </div>
+                            <div class="buytattoobox">
+                                <label for="quantity">Size:</label>
+
+                                <select id="size">
+                                    <option value="Small">Small</option>
+                                    <option value="Medium">Medium</option>
+                                    <option value="Large">Large</option>
+                                </select>
+                                <button><a href="">ADD TO CART</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="descriptionoftattoo">
+                            <p><span class="tattoodescription"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </article>
         </div>
     </main>
     <footer>
@@ -54,4 +90,5 @@
             </a>
         </div>
     </footer>
+    <script src="main.js"></script>
 </body></html>
