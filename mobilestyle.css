@@ -190,18 +190,19 @@ footer {
 .info {
     padding-top: 0.5vw;
     width: 100%;
-    background-color: white;
+    background-color: #FFDB58;
     padding-bottom: 1.5vw;
 }
 
 .buybutton {
-    margin-top: 1.5vh;
+   margin-top: 1.5vh;
     width: 60%;
     font-size: 2.5vw;
     border: solid grey 1px;
     border-radius: 5px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
+    font-family: robotoblack;
 }
 
 .secondcontain {

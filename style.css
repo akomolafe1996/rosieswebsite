@@ -210,6 +210,7 @@ footer {
 .tattootiles p {
     margin: 0;
     padding: 0;
+    font-family: roboto;
 }
 
 .tattootitle {
@@ -225,10 +226,9 @@ footer {
 .info {
     padding-top: 0.5vw;
     width: 100%;
-    background-color: white;
+    background-color: #FFDB58;
     padding-bottom: 1vw;
     border-top: solid black 2px;
-    border-bottom: solid black 2px;
 }
 
 .buybutton {
@@ -237,8 +237,9 @@ footer {
     font-size: 1vw;
     border: solid grey 1px;
     border-radius: 5px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
+    font-family: robotoblack;
 }
 
 .secondcontain {
