@@ -252,7 +252,7 @@ footer {
 
 .contactdetails {
     width: 100%;
-    background-image: url(Rosie.png);
+    background-image: url(Images/Rosie.png);
     background-size: cover
 }
 
@@ -452,14 +452,14 @@ input[type="submit"]:hover {
 
 .image1 {
     width: 100%;
-    background-image: url(Rosie1.jpg);
+    background-image: url(Images/Rosie1.jpg);
     background-size: cover;
     height: 40vh;
 }
 
 .image2 {
     width: 100%;
-    background-image: url(Rosie2.jpg);
+    background-image: url(Images/Rosie2.jpg);
     background-size: cover;
     height: 40vh;
 }
