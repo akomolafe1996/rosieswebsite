@@ -79,32 +79,8 @@
     font-size: 2vw;
 }
 
-.buytattoobox label {
-    display: block;
-    font-size: 2vw;
-}
-
-.buytattoobox select {
-    border: solid grey 1px;
-    border-radius: 5px;
-    width: 80%;
-    font-size: 2vw;
-}
-
 .buytattoobox option {
     font-size: 2vw;
-}
-
-.buytattoobox button {
-    display: block;
-    margin-top: 0.5vw;
-    background-color: black;
-    border: solid grey 1px;
-    border-radius: 5px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    width: 80%;
 }
 
 .bottom {

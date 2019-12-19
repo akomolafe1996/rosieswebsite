@@ -463,6 +463,7 @@ footer {
     text-transform: none;
     position: absolute;
     left: 1vw;
+    z-index: 1;
 }
 
 .goback a {
@@ -485,6 +486,7 @@ footer {
 .subpagenameandprice img {
     max-width: 100%;
     height: auto;
+    z-index: -1;
 }
 
 .subpagegallery {
@@ -522,6 +524,7 @@ footer {
 .buytattoobox label {
     font-size: 1vw;
     font-family: roboto;
+    display: block;
 }
 
 #size {
@@ -537,7 +540,17 @@ footer {
     font-size: 1vw;
     font-family: roboto;
     border: solid 1px black;
-    background-color: white;
-    color: black;
+    background-color: #CACCCC;
+    color:  black;
     width: 70%;
+     display: block;
+    margin-top: 0.5vw;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer img {
+    padding: 1vw;
+    height: 2vh;
 }

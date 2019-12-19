@@ -358,3 +358,8 @@ footer {
     position: absolute;
     left: 1vw;
 }
+
+footer img {
+    padding: 1vw;
+    height: 3vh;
+}
