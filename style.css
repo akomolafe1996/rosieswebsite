@@ -42,9 +42,6 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    height: 100%;
-    background: url(Images/roses3bw.jpg) no-repeat center fixed;
-    background-size: cover;
 }
 
 header {
@@ -354,12 +351,12 @@ footer {
 }
 
 .rosie45 {
-    width: 70vh;
-    height: 75vh;
+    width: 30vh;
+    height: 55vh;
     position: absolute;
-    right: 25vh;
+    right: 1vh;
     top: 0;
-    background-image: url(Images/DontLookDown.png);
+    background-image: url(Images/Rosie98.jpg);
     background-size: cover;
     z-index: -1;
 }
