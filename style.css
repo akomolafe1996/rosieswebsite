@@ -277,6 +277,79 @@ footer {
     position: fixed;
 }
 
+.topimage2 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: white;
+}
+
+.getincontact {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imageforcontact {
+    width: 100%;
+    background-image: url(Images/Rosie2.jpg);
+    background-size: cover;
+}
+
+.formforcontact {
+    padding: 1.5vw;
+    padding-top: 15vh;
+    width: 95%;
+    display: block;
+    background: #7E8080;
+    height: 100vh;
+}
+
+.formforcontact p {
+    padding: 1vw;
+    padding-bottom: 0;
+    margin: 0;
+    font-family: Avenir;
+    font-size: 2vw;
+}
+
+.formforcontact input {
+    width: 95%;
+    display: block;
+    margin: 1vw;
+    margin-bottom: 2vh;
+    font-size: 1vw;
+    font-family: Avenir;
+    border: solid 1px black;
+    border-radius: 1px;
+}
+
+#message {
+    width: 95%;
+    height: 30vh;
+    display: block;
+    margin: 1vw;
+    margin-bottom: 2vh;
+    font-size: 1vw;
+    font-family: Avenir;
+    border: solid 1px black;
+   border-radius: 1px;
+}
+
+.formforcontact button {
+    width: 40%;
+    display: block;
+    margin: 1vw;
+    margin-bottom: 2vh;
+      font-size: 1vw;
+    font-family: Avenir;
+    border: solid 1px black;
+    border-radius: 1px;
+    color: black;
+    background-color: #CACCCC;
+}
+
+
 .topimage span {
     font-family: lovely;
     text-transform: none;
@@ -378,7 +451,7 @@ footer {
     top: 15vh;
     width: 40%;
     height: 60vh;
-    background-color: #FFDB58 ;
+    background-color: #FFDB58;
     z-index: -1;
 }
 
@@ -388,12 +461,12 @@ footer {
     top: 15vh;
     width: 30%;
     height: 60vh;
-    background-color: #FFDB58 ;
+    background-color: #FFDB58;
     z-index: -1;
 }
 
 .subpageblock {
-     position: absolute;
+    position: absolute;
     left: 1vw;
     top: 15vh;
     width: 40%;
@@ -416,7 +489,7 @@ footer {
 
 .subline {
     position: absolute;
-   top: 3.5vh;
+    top: 3.5vh;
     width: 100%;
     left: 0;
     width: 40%;
@@ -489,7 +562,7 @@ footer {
 }
 
 .contactdetails {
-     width: 50vh;
+    width: 50vh;
     position: absolute;
     right: 1vw;
     top: 4vh;
@@ -499,7 +572,7 @@ footer {
 
 
 .goback {
-     font-family: RobotoThin;
+    font-family: RobotoThin;
     padding-top: 0;
     padding: 5vw;
     font-size: 1vw;
@@ -516,7 +589,7 @@ footer {
 }
 
 .subpagenameandprice {
-     width: 30vh;
+    width: 30vh;
     position: absolute;
     left: 1vw;
     top: 5vh;
@@ -557,7 +630,7 @@ footer {
 }
 
 .buytattoobox {
-     width: 15vh;
+    width: 15vh;
     position: absolute;
     left: 1vw;
     top: 30vh;
@@ -585,9 +658,9 @@ footer {
     font-family: roboto;
     border: solid 1px black;
     background-color: #CACCCC;
-    color:  black;
+    color: black;
     width: 70%;
-     display: block;
+    display: block;
     margin-top: 0.5vw;
     border-radius: 5px;
     text-align: center;
@@ -600,115 +673,116 @@ footer img {
 }
 
 .videocontainer {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 }
 
 @media only screen and (max-width: 1000px) {
-   .rosie45 {
-    width: 50vh;
-    height: 55vh;
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-image: url(Images/DontLookDown.png);
-    background-size: cover;
-    z-index: -1;
-}
+    .rosie45 {
+        width: 50vh;
+        height: 55vh;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-image: url(Images/DontLookDown.png);
+        background-size: cover;
+        z-index: -1;
+    }
 
     .topimage p5 {
-    font-family: RobotoThin;
-    padding-top: 0;
-    padding: 5vw;
-    font-size: 2.5vw;
-    margin: 0;
-    text-transform: none;
-    position: absolute;
-    left: 1vw;
-}
+        font-family: RobotoThin;
+        padding-top: 0;
+        padding: 5vw;
+        font-size: 2.5vw;
+        margin: 0;
+        text-transform: none;
+        position: absolute;
+        left: 1vw;
+    }
 
     .topimage h2 {
-    font-size: 3vw;
-    text-align: left;
-    font-family: avenir;
-    text-transform: uppercase;
-    padding: 5vw;
-    padding-bottom: 0;
-    margin: 0;
-    padding-top: 0;
-}
+        font-size: 3vw;
+        text-align: left;
+        font-family: avenir;
+        text-transform: uppercase;
+        padding: 5vw;
+        padding-bottom: 0;
+        margin: 0;
+        padding-top: 0;
+    }
 
     .threecolumns {
-    display: grid;
-    grid-template-columns: 48vw 48vw;
-}
+        display: grid;
+        grid-template-columns: 48vw 48vw;
+    }
 
-   .tattootitle {
-    font-size: 3vw;
-    color: black;
-}
+    .tattootitle {
+        font-size: 3vw;
+        color: black;
+    }
 
-.tattooprice {
-    font-size: 3vw;
-    color: black;
-}
-.buybutton {
-    margin-top: 1.5vh;
-    width: 60%;
-    font-size: 3vw;
-    border: solid grey 1px;
-    border-radius: 5px;
-    background-color: white;
-    color: black;
-    font-family: robotoblack;
-}
+    .tattooprice {
+        font-size: 3vw;
+        color: black;
+    }
+
+    .buybutton {
+        margin-top: 1.5vh;
+        width: 60%;
+        font-size: 3vw;
+        border: solid grey 1px;
+        border-radius: 5px;
+        background-color: white;
+        color: black;
+        font-family: robotoblack;
+    }
 
     .navigation a {
-    text-decoration: none;
-    color: black;
-    font-size: 2vw;
-    text-transform: uppercase;
-    font-family: Roboto;
-}
+        text-decoration: none;
+        color: black;
+        font-size: 2vw;
+        text-transform: uppercase;
+        font-family: Roboto;
+    }
 
     .topimage p6 {
-    font-family: roboto;
-    font-size: 2.5vw;
-}
+        font-family: roboto;
+        font-size: 2.5vw;
+    }
 
     .subpagegallery h4 {
-    font-family: Robotobold;
-    padding: 0;
-    font-size: 3vw;
-    margin: 0;
-    text-transform: none;
-    text-align: right;
-    color: black;
-}
+        font-family: Robotobold;
+        padding: 0;
+        font-size: 3vw;
+        margin: 0;
+        text-transform: none;
+        text-align: right;
+        color: black;
+    }
 
     .goback {
-     font-family: RobotoThin;
-    padding-top: 0;
-    padding: 5vw;
-    font-size: 3vw;
-    margin: 0;
-    text-transform: none;
-    position: absolute;
-    left: 1vw;
-    z-index: 1;
-}
+        font-family: RobotoThin;
+        padding-top: 0;
+        padding: 5vw;
+        font-size: 3vw;
+        margin: 0;
+        text-transform: none;
+        position: absolute;
+        left: 1vw;
+        z-index: 1;
+    }
 
     .buytattoobox label {
-    font-size: 3vw;
-    font-family: roboto;
-    display: block;
-}
+        font-size: 3vw;
+        font-family: roboto;
+        display: block;
+    }
 
     #size {
-         font-size: 2.5vw;
+        font-size: 2.5vw;
     }
 
     .addtocart {
