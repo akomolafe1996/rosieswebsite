@@ -290,7 +290,19 @@ footer {
     grid-template-columns: 1fr 1fr;
 }
 
+.getincontact2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
 .imageforcontact {
+    width: 100%;
+    background-image: url(Images/Rosie2.jpg);
+    background-size: cover;
+}
+
+.imageforcontact2 {
     width: 100%;
     background-image: url(Images/Rosie2.jpg);
     background-size: cover;
@@ -305,6 +317,14 @@ footer {
     height: 100vh;
 }
 
+.formforcontact2 {
+    padding: 1.5vw;
+    padding-top: 32vh;
+    width: 95%;
+    display: block;
+    height: 100vh;
+}
+
 .formforcontact p {
     padding: 1vw;
     padding-bottom: 0;
@@ -312,6 +332,19 @@ footer {
     font-family: Avenir;
     font-size: 2vw;
 }
+
+.formforcontact2 p {
+    padding: 1vw;
+    padding-bottom: 0;
+    margin: 0;
+    font-family: Avenir;
+    font-size: 2vw;
+}
+
+.formforcontact2 span {
+    font-size: 3vw;
+}
+
 
 .formforcontact input {
     width: 95%;
